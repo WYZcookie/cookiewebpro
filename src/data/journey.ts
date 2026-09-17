@@ -9,26 +9,26 @@ export type DirectionItem = {
 export const directionItems: readonly DirectionItem[] = [
   {
     index: "01",
-    phase: "Foundation",
-    title: "Build the system before filling the surface.",
+    phase: "奠基",
+    title: "先构筑底层系统，再雕琢表层细节。",
     description:
-      "The architecture, design language, content model, responsive behavior, metadata, and quality gates are established first.",
+      "首先确立架构、设计语言、内容模型、响应式行为、元数据以及质量把控标准。",
     state: "complete",
   },
   {
     index: "02",
-    phase: "Now",
-    title: "Document real work with useful specificity.",
+    phase: "当前",
+    title: "以实用且具体的细节记录真实工作。",
     description:
-      "The next content pass should replace every placeholder with verified projects, decisions, constraints, and outcomes.",
+      "下一步将用经过验证的项目、决策、约束条件和最终成果，替换掉所有的占位内容。",
     state: "current",
   },
   {
     index: "03",
-    phase: "Next",
-    title: "Turn selected projects into deeper case studies.",
+    phase: "未来",
+    title: "将精选项目转化为深度的案例研究。",
     description:
-      "Dedicated project routes can be added when there is enough authentic material to make them worth the reader’s time.",
+      "当积累了足够多有价值的真实素材时，将会添加专门的项目展示页面，确保读者不虚此行。",
     state: "next",
   },
 ] as const;

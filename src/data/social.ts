@@ -8,18 +8,18 @@ export type SocialItem = {
 
 export const socialItems: readonly SocialItem[] = [
   {
-    label: "Email",
-    value: siteConfig.contactEmail ?? "Add a public email",
+    label: "邮箱",
+    value: siteConfig.contactEmail ?? "添加公开邮箱",
     href: siteConfig.contactEmail ? `mailto:${siteConfig.contactEmail}` : null,
   },
   {
     label: "GitHub",
-    value: siteConfig.githubUrl ?? "Add a GitHub profile",
+    value: siteConfig.githubUrl ?? "添加 GitHub 主页",
     href: siteConfig.githubUrl,
   },
   {
-    label: "LinkedIn",
-    value: siteConfig.linkedInUrl ?? "Optional profile",
+    label: "领英 (LinkedIn)",
+    value: siteConfig.linkedInUrl ?? "可选配置个人主页",
     href: siteConfig.linkedInUrl,
   },
 ] as const;

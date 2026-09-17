@@ -1,8 +1,8 @@
 export const navItems = [
-  { label: "Approach", href: "#approach" },
-  { label: "Work", href: "#work" },
-  { label: "Stack", href: "#stack" },
-  { label: "Direction", href: "#direction" },
+  { label: "开发理念", href: "#approach" },
+  { label: "精选作品", href: "#work" },
+  { label: "技术栈", href: "#stack" },
+  { label: "前行方向", href: "#direction" },
 ] as const;
 
 export const siteConfig = {
